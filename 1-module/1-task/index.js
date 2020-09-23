@@ -3,12 +3,11 @@
  * @param {number} n
  * @returns {number}
  */
-function factorial(n) {
-let result = 1;
+function factorial(n){
+  var result = 1;
   while(n){
-    result *= n--;
+      result =result* n--;
   }
   return result;
 }
-factorial(0);
-
+factorial(5);
