@@ -4,6 +4,7 @@
  * @returns {string}
  */
 function ucFirst(str) {
-  str.charAt(0).toUpperCase();
+  let str1 = str[0].toUpperCase();
+  str = str1 + str.slice(1);
 }
 ucFirst('вася');
